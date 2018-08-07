@@ -1,0 +1,101 @@
+.bg-color {
+    height: 100%;
+    width: 100%;
+    background: rgba(15, 16, 54, 0.4);
+}
+
+.navbar {
+    font-size: 1.5rem !important;
+    font-weight: 100 !important;
+}
+
+.nav-item.nav-link.ml-auto {
+    padding-right: 3rem;
+}
+
+.main-content {
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10rem;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 8rem;
+    letter-spacing: -0.8rem;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 2rem;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: -2px;
+    font-weight: 100;
+    margin-left: 3rem;
+}
+
+/* responsive */
+@media screen and (max-width: 1145px) {
+    .title {
+        font-size: 6rem;
+        letter-spacing: -0.5rem;
+    }
+    .navbar {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media screen and (min-width: 695px) and (max-width: 825px) {
+    .title {
+        font-size: 5rem;
+        letter-spacing: -0.4rem;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .main-content {
+        text-align: center;
+    }
+    .title {
+        letter-spacing: -0.6rem;
+        font-size: 8rem;
+        line-height: 7rem;
+    }
+    .button {
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 520px) and (max-width: 600px) {
+    .title {
+        font-size: 7rem;
+        line-height: 6rem;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .title {
+        letter-spacing: -0.5rem;
+        font-size: 6rem;
+        line-height: 5rem;
+    }
+    .button {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .title {
+        letter-spacing: -0.4rem;
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+    .main-content {
+        padding-bottom: 13rem;
+    }
+}
